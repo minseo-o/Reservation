@@ -1,0 +1,49 @@
+
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    background-color: #791b1b;
+    color: white;
+}
+
+.login-form {
+    width: 400px;
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* login-form에는 border-box 적용 */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.text-field {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    width: 260px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    width: 260px;
+    background-color: #791b1b;
+    margin-bottom: 30px;
+    color: white;
+}

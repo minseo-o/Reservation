@@ -1,0 +1,18 @@
+.container {
+    margin: 60px;
+    display: flex;
+}
+
+.main_image {
+    max-width: 50%; /* Image takes up 50% of the container width */
+    height: auto;
+    
+}
+
+.txt {
+    padding-left: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    flex-grow: 1; /* Allow the text to take remaining width */
+}
