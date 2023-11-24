@@ -1,0 +1,45 @@
+.container {
+    margin: 60px;
+    display: flex;
+}
+
+.main_image {
+    width: 340px;
+    border-radius:3%;
+    
+}
+
+.txt {
+    padding-left: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    flex-grow: 1; /* Allow the text to take remaining width */
+}
+.inside{
+    margin: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.map{
+    margin :60px;
+
+}
+.road{
+    margin-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+
+}
+.inside{
+    margin: 60px;
+}
+.notice{
+    
+    display: flex;
+}
+.notice_img{
+    margin-right: 20px;
+    width:594px;
+    
+}

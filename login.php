@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $query);
 
 if (mysqli_num_rows($result) == 1) {
   echo "로그인 성공.";
-    header('Location: ./main.php'); // 로그인 성공 시 리다이렉션할 페이지로 이동
+    header('Location: main.html'); // 로그인 성공 시 리다이렉션할 페이지로 이동
 } else {
     // 로그인 실패
     echo "로그인 실패. 다시 시도하세요.";
