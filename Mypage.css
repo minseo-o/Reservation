@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+
+    margin: 30px;
+}
+.nav3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav3 li {
+    display: inline;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: #333; /* Set the desired text color */
+    font-weight: bold; /* Set the desired font weight */
+}
